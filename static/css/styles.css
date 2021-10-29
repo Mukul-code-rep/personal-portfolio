@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#mainNav .navbar-toggler,
+#secondNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #F4F9F9;
+}
+
+#mainNav .navbar-toggler:hover,
+#secondNav .navbar-toggler:hover {
+    color: #A4EBF3;
+}
+
+#mainNav .navbar-nav > li.nav-item > a,
+#secondNav .navbar-nav > li.nav-item > a {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+    color: #A4EBF3;
+}
+
+#secondNav .navbar-nav > li.nav-item > a:focus, #secondNav .navbar-nav > li.nav-item > a:hover {
+    color: #AAAAAA;
+}
+
+#navbarResponsive,
+#navbarResponsive2 {
+    text-align: right;
+}
+
+#secondNav {
+    background-color: #1687A7;
+}
+
+@media only screen and (min-width: 992px) {
+  #mainNav {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+  }
+
+  #mainNav .navbar-nav > li.nav-item > a,
+  #secondNav .navbar-nav > li.nav-item > a {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    padding: 10px 20px;
+    color: #F4F9F9;
+  }
+}
+
+header.masthead {
+  background: no-repeat center center;
+  background-attachment: scroll;
+  background-color: #868e96;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: #F4F9F9;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 100px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 40px 0 0;
+  font-family: 'Hind Madurai', sans-serif;
+  opacity: 0.8;
+}
+
+/*about*/
+#about {
+    padding: 7% 15%;
+}
+
+#about .container > div.row {
+    padding: 5% 0;
+}
+
+#about .container > div.row > img {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    opacity: 0.8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#about .container > div.row > p {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: white;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+/*projects*/
+#projects {
+    padding: 7% 15%;
+}
+
+#projects > h2 {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+#projects .container > div.row > div {
+    padding: 7% 7%;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
+}
+
+#projects .container > div.row > img {
+    position: relative;
+    border-radius: 100%;
+    height: 10%;
+    max-width: 5%;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Footer*/
+#footer {
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+
+#footer i {
+  color: #222831;
+  font-size: 2rem;
+  padding: 1.5rem;
+  opacity: 0.8;
+}
+
+#footer i:hover {
+    opacity: 1;
+    color: #1687A7;
+}
+
+#footer .row {
+    padding: 1rem 20%;
+}
+
+/*research*/
+#research {
+    padding: 7% 15%;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #868e96;
+    position: relative;
+    background-size: cover;
+}
+
+#research > h2 {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #F4F9F9;
+}
+
+#research .container > div.row > div {
+    padding: 7% 7%;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
+    color: #F4F9F9;
+}
+
+#research .container > div.row > img {
+    position: relative;
+    border-radius: 100%;
+    height: 10%;
+    max-width: 5%;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.point {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+li.point::before {
+  content: "• ";
+  color: white; /* or whatever color you prefer */
+  font-weight: bold;
+}
+
+/*experience*/
+#experience {
+    padding: 7% 15%;
+}
+
+#experience > h2 {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+#experience .container > div.row > div {
+    padding: 7% 7%;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 18px;
+}
+
+#experience .container > div.row > img {
+    position: relative;
+    border-radius: 100%;
+    height: 10%;
+    max-width: 5%;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#experience li.point {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+#experience li.point::before {
+  content: "• ";
+  color: black; /* or whatever color you prefer */
+  font-weight: bold;
+}

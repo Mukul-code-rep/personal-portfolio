@@ -1,0 +1,43 @@
+{% include "header.html" %}
+
+<div id="experience">
+    <h2> EXPERIENCE </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="{{ url_for('static', filename='images/cci.jpg') }}">
+            </div>
+            <div class="col-lg-6">
+                <p> I'm a Teaching Assistant for the introductory web development class (CS 150) at the College of Computing and
+                    Informatics, Drexel University, from the start of Fall 2021. <br>
+                    My work includes:
+                    <ul>
+                <li class="point">Assisting the course professor with helping the students in the lab.</li>
+                <li class="point">Hold office hours for students to answer their queries, even if they are taking
+                    a different course.</li>
+                <li class="point">Grade the pre-labs, labs, and homeworks and provide feedbacks while leaving a room to be questioned.</li>
+            </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>
+                    I'm an Equipment Window Assistant and Fitness Floor Assistant at the Drexel Recreation Center from Summer 2021.<br>
+                    My work there includes:<br>
+                    <ul>
+                <li class="point">Checking out equipments as per members ask for and back.</li>
+                <li class="point">Logging inventory to help my supervisor keep track of equipments in the EQ window.</li>
+                <li class="point">Completing tasks given to us through a virtual environment.</li>
+                <li class="point">Providing a good customer service to the customers.</li>
+            </ul>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="{{ url_for('static', filename='images/rec.jpg') }}">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include "footer.html" %}
