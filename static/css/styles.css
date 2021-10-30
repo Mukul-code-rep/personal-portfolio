@@ -13,9 +13,12 @@
   color: #F4F9F9;
 }
 
-#mainNav .navbar-toggler:hover,
-#secondNav .navbar-toggler:hover {
+#mainNav .navbar-toggler:hover {
     color: #A4EBF3;
+}
+
+#secondNav .navbar-toggler:hover {
+    color: #AAAAAA
 }
 
 #mainNav .navbar-nav > li.nav-item > a,
