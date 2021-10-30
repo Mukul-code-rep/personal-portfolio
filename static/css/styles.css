@@ -108,6 +108,11 @@ header.masthead .site-heading {
   overflow: hidden;
 }
 
+header.masthead .page-heading::-webkit-scrollbar,
+header.masthead .site-heading::-webkit-scrollbar {
+    display: none;
+}
+
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   font-family: 'Hind Madurai', sans-serif;
