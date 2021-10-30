@@ -59,6 +59,13 @@
   }
 }
 
+@media only screen and (max-width: 992px) {
+  #mainNav,
+  #secondNav {
+    text-align: right;
+  }
+}
+
 header.masthead {
   background: no-repeat center center;
   background-attachment: scroll;
