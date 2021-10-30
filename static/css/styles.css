@@ -25,6 +25,7 @@
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: #F4F9F9;
 }
 
 #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
