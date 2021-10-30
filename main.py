@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
@@ -24,6 +24,11 @@ def project():
 @app.route('/research')
 def research():
     return render_template("research.html")
+
+
+@app.route('/resume')
+def resume():
+    return send_from_directory('static/', 'cs_resume.pdf')
 
 
 if __name__ == "__main__":
