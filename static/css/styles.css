@@ -62,7 +62,7 @@
 @media only screen and (max-width: 992px) {
   #mainNav,
   #secondNav {
-    text-align: right;
+    text-align: left;
   }
 }
 
@@ -154,6 +154,12 @@ header.masthead .site-heading .subheading {
     padding: 7% 15%;
 }
 
+@media only screen and (max-width: 992px) {
+  #projects {
+    padding: 15% 15%;
+  }
+}
+
 #projects > h2 {
     font-family: 'Hind Madurai', sans-serif;
 }
@@ -208,6 +214,12 @@ header.masthead .site-heading .subheading {
     background-size: cover;
 }
 
+@media only screen and (max-width: 992px) {
+  #research {
+    padding: 15% 15%;
+  }
+}
+
 #research > h2 {
     font-family: 'Hind Madurai', sans-serif;
     color: #F4F9F9;
@@ -251,6 +263,12 @@ li.point::before {
 /*experience*/
 #experience {
     padding: 7% 15%;
+}
+
+@media only screen and (max-width: 992px) {
+  #experience {
+    padding: 15% 15%;
+  }
 }
 
 #experience > h2 {
