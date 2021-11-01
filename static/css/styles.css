@@ -87,40 +87,32 @@ header.masthead .overlay {
   opacity: 0;
 }
 
-header.masthead .page-heading,
-header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
   color: #F4F9F9;
 }
 
 @media only screen and (min-width: 768px) {
-  header.masthead .page-heading,
-  header.masthead .post-heading,
   header.masthead .site-heading {
     padding: 200px 0;
   }
 }
 
-header.masthead .page-heading,
 header.masthead .site-heading {
   text-align: center;
   overflow: hidden;
 }
 
-header.masthead .page-heading::-webkit-scrollbar,
 header.masthead .site-heading::-webkit-scrollbar {
     display: none;
 }
 
-header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   font-family: 'Hind Madurai', sans-serif;
   font-size: 100px;
   margin-top: 0;
 }
 
-header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   font-size: 20px;
   font-weight: 300;
@@ -171,6 +163,7 @@ header.masthead .site-heading .subheading {
 
 #projects > h2 {
     font-family: 'Hind Madurai', sans-serif;
+    overflow: hidden;
 }
 
 #projects .container > div.row > div {
@@ -179,15 +172,13 @@ header.masthead .site-heading .subheading {
     font-size: 20px;
 }
 
-#projects .container > div.row > img {
+#projects .container > div.row > div.colm > img {
     position: relative;
-    border-radius: 100%;
-    height: 10%;
-    max-width: 5%;
-    opacity: 0.8;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+    object-fit: contain;
 }
 
 /*Footer*/
@@ -198,10 +189,10 @@ header.masthead .site-heading .subheading {
 }
 
 #footer i {
-  color: #222831;
+  color: #F4F9F9;
   font-size: 2rem;
   padding: 1.5rem;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 #footer i:hover {
@@ -232,6 +223,7 @@ header.masthead .site-heading .subheading {
 #research > h2 {
     font-family: 'Hind Madurai', sans-serif;
     color: #F4F9F9;
+    overflow: hidden;
 }
 
 #research .container > div.row > div {
@@ -282,6 +274,7 @@ li.point::before {
 
 #experience > h2 {
     font-family: 'Hind Madurai', sans-serif;
+    overflow: hidden;
 }
 
 #experience .container > div.row > div {
