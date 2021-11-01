@@ -105,6 +105,12 @@ header.masthead .site-heading {
 header.masthead .page-heading,
 header.masthead .site-heading {
   text-align: center;
+  overflow: hidden;
+}
+
+header.masthead .page-heading::-webkit-scrollbar,
+header.masthead .site-heading::-webkit-scrollbar {
+    display: none;
 }
 
 header.masthead .page-heading h1,
@@ -302,6 +308,6 @@ li.point::before {
 
 #experience li.point::before {
   content: "• ";
-  color: black; /* or whatever color you prefer */
+  color: black;
   font-weight: bold;
 }
