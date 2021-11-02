@@ -28,7 +28,7 @@ def research():
 
 @app.route('/resume')
 def resume():
-    return send_from_directory('static/', 'cs_resume.pdf')
+    return send_from_directory('static/', 'Periwal_Resume.pdf')
 
 
 if __name__ == "__main__":
